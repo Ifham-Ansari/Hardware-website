@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>BitsBytes</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+  <link href="./img/favicon.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <!--  CSS Files -->
+
+  <link href="./css/swiper.css" rel="stylesheet">
+
+
+  <link href="./css/style.css" rel="stylesheet">
+
+  <!-- bootstrap  -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+  <!--  Header  -->
+  
+  <header>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="">BitsBytes</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Help</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Hardware
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#CPU">CPU</a></li>
+                <li><a class="dropdown-item" href="#motherboard">MotherBoard</a></li>
+                <li><a class="dropdown-item" href="#GPU">GPU</a></li>
+                <li><a class="dropdown-item" href="#RAM">RAM</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar End -->
+  </header>
+
+  <main id="main">
+
+    <!--  Hero Slider Section -->
+    <section id="hero-slider" class="hero-slider">
+      <div class="container-md" data-aos="fade-in">
+        <div class="row">
+          <div class="col-12">
+            <div class="swiper sliderFeaturedPosts">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <a href="#CPU" class="img-bg d-flex align-items-end" style="background-image: url('./img/cpu.jpg');">
+                    <div class="img-bg-inner">
+                      <h2>CPU(Central Proccessing Unit)</h2>
+                      <p>The component of a computer system that controls the interpretation and execution of
+                        instructions. The CPU of a PC consists of a single microprocessor, while the CPU of a more
+                        powerful mainframe consists of multiple processing devices, and in some cases, hundreds of them.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="#motherboard" class="img-bg d-flex align-items-end"
+                    style="background-image: url('./img/motherboard.jpg');">
+                    <div class="img-bg-inner">
+                      <h2>Mother Board</h2>
+                      <p>A motherboard is the main printed circuit board (PCB) in a computer. The motherboard is a
+                        computer's central communications backbone connectivity point, through which all components and
+                        external peripherals connect. Motherboards can be found in virtually all computers, especially
+                        desktop and laptop PCs.</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="#GPU" class="img-bg d-flex align-items-end" style="background-image: url('./img/gpu.jpg');">
+                    <div class="img-bg-inner">
+                      <h2>GPU(Graphic Proccessing Unit)</h2>
+                      <p>Graphics processing unit, a specialized processor originally designed to accelerate graphics
+                        rendering. GPUs can process many pieces of data simultaneously, making them useful for machine
+                        learning, video editing, and gaming applications.</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="#RAM" class="img-bg d-flex align-items-end" style="background-image: url('./img/ram.jpg');">
+                    <div class="img-bg-inner">
+                      <h2>RAM(Random Access Memory)</h2>
+                      <p>RAM is the hardware in a computing device where the operating system (OS), application programs
+                        and data in current use are kept so they can be quickly reached by the device's processor.</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="custom-swiper-button-next">
+                <span class="bi-chevron-right"></span>
+              </div>
+              <div class="custom-swiper-button-prev">
+                <span class="bi-chevron-left"></span>
+              </div>
+
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Hero Slider Section -->
+
+
+    <!--  Post Grid Section -->
+
+    <div class="card-container">
+      <div class="container">
+        <div class="row justify-content-evenly">
+          <div class="col-md-7 order-md-1 order-2">
+            <h2 class="text-center my-5" id="CPU">Title: Understanding CPUs - The Brains of Your Computer</h2>
+            <h3>Introduction:</h3>
+            <p>When it comes to computer hardware, the CPU (Central Processing Unit) is undoubtedly the most important
+              component. Often referred to as the "brain" of the computer, the CPU plays a crucial role in executing
+              instructions and performing calculations that power all the applications and processes on your system. In
+              this article, we will delve into the world of CPUs, exploring their architecture, performance metrics, and
+              how to choose the right CPU for your computing needs.</p>
+            <h3>1. CPU Architecture:</h3>
+            <p>At its core, a CPU consists of millions of transistors arranged in intricate patterns on a semiconductor
+              chip. These transistors work together to process and execute instructions from software programs. The
+              CPU's architecture includes several key components:</p>
+            <p><b> >Control Unit:</b> Responsible for managing the execution of instructions, fetching data, and
+              coordinating operations. <br>
+              <b> >Arithmetic Logic Unit (ALU):</b> Handles mathematical and logical operations, such as addition,
+              subtraction, and comparisons. <br>
+              <b> >Registers:</b> Fast storage areas that hold data and instructions currently being processed
+            </p>
+            <h3>2. Clock Speed and Cores:</h3>
+            <p>Two critical aspects of a CPU's performance are its clock speed and the number of cores. The clock speed
+              is measured in gigahertz (GHz) and represents how many cycles the CPU can execute per second. Higher clock
+              speeds generally mean faster performance. On the other hand, the number of cores determines how many tasks
+              the CPU can handle simultaneously. Dual-core, quad-core, hexa-core, and octa-core CPUs are common
+              configurations</p>
+            <h3>3. Performance Metrics:</h3>
+            <p>CPU performance is not solely determined by clock speed and core count. Other factors, such as cache
+              size, pipeline efficiency, and instruction sets, play a crucial role in overall performance. Understanding
+              benchmarks, like Cinebench and PassMark, can help you compare different CPUs and make informed decisions.
+            </p>
+            <h3>4. CPU Generation:</h3>
+            <p>CPU manufacturers, such as Intel and AMD, regularly release new generations of CPUs with improved
+              performance and efficiency. Each generation introduces architectural advancements and smaller
+              manufacturing processes, resulting in better performance and reduced power consumption.</p>
+            <h3>5. Integrated Graphics vs. Dedicated Graphics:</h3>
+            <p>Some CPUs come with integrated graphics, meaning they have a built-in GPU (Graphics Processing Unit).
+              These CPUs are suitable for basic graphics tasks, but for gaming and heavy graphical workloads, a
+              dedicated graphics card is recommended.</p>
+            <h3>6. Choosing the Right CPU:</h3>
+            <p>Selecting the right CPU depends on your specific needs. For casual users, a mid-range CPU with sufficient
+              cores and clock speed will work well. Gamers and content creators might opt for high-end CPUs to handle
+              demanding applications. Budget-conscious users can explore previous-generation CPUs or lower-end models
+              that offer good performance for everyday tasks</p>
+            <h3>Conclusion:</h3>
+            <p>The CPU is the heart and soul of any computer system, enabling it to perform complex calculations and
+              execute software instructions. Understanding the architecture, performance metrics, and factors
+              influencing CPU choice will empower you to make the right decision for your computing needs. Whether
+              you're building a gaming rig or a workstation for creative tasks, a well-chosen CPU will significantly
+              impact your overall computing experience.
+            </p>
+            <p><a href="https://youtu.be/cNN_tTXABUA" class="link-more">Learn More</a></p>
+          </div>
+
+          <div class="col-md-5" style="margin-top: 30%;">
+            <img src="https://img.freepik.com/premium-psd/abstract-circuit-board-space-processor-cpu-can-be-used-text-input-banner_37817-866.jpg" class="img-fluid" style="height: 60vh; width: 100%;" alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <div class="card-container2">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-7 order-md-1 order-2">
+            <h2 class="text-center my-5" id="motherboard">Title: Demystifying Motherboards - The Backbone of Your PC
+            </h2>
+            <h3>Introduction:</h3>
+            <p>The motherboard is one of the most critical components of any computer system. Often referred to as the
+              "backbone" of the PC, the motherboard serves as a platform that connects and enables communication between
+              all other hardware components. In this article, we'll explore the world of motherboards, their components,
+              form factors, and the factors to consider when choosing the right motherboard for your needs.
+            </p>
+            <h3>1. Motherboard Components: </h3>
+            <p>The motherboard is a complex circuit board that integrates various components to facilitate the
+              functioning of the computer. Some essential components of a motherboard include: </p>
+            <p><b> >CPU Socket:</b> The slot on the motherboard where the CPU is mounted. <br>
+              <b> >RAM Slots: </b> slots hold the system's memory modules. <br>
+              <b> >Expansion Slots:</b> PCIe and other slots for adding graphics cards, sound cards, and other
+              peripherals. <br>
+              <b> >Storage Connectors:</b> SATA and M.2 slots for connecting hard drives and SSDs. <br>
+              <b> >Power Connectors:</b> Ports for connecting the power supply to provide power to the motherboard and
+              its components.
+            </p>
+            <h3>2. Form Factors: </h3>
+            <p>Motherboards come in various form factors, which dictate their physical size and layout. Common form
+              factors include: </p>
+            <p> <b> >ATX:</b> The standard and most popular form factor for full-sized desktop PCs. <br>
+              <b> >Micro-ATX:</b> A smaller version of ATX, suitable for compact systems. <br>
+              <b> >Mini-ITX: </b> The smallest form factor, ideal for small form factor and HTPC builds
+            </p>
+            <h3>3. Chipsets: </h3>
+            <p>The chipset on a motherboard is a crucial component that manages communication between the CPU, memory,
+              storage, and other peripherals. Chipsets also determine the motherboard's capabilities, such as the number
+              of USB ports, PCIe lanes, and support for overclocking.</p>
+            <h3>4. RAM Support: </h3>
+            <p>Motherboards have specific limitations on the type and amount of RAM they can support. Understanding the
+              maximum supported RAM capacity, memory speed, and compatibility with DDR4, DDR3, or other RAM types is
+              essential when selecting a motherboard. </p>
+            <h3>5. Expansion and Connectivity: </h3>
+            <p>The number and type of expansion slots on a motherboard determine its ability to accommodate additional
+              hardware. Consider the number of PCIe slots for graphics cards, Wi-Fi cards, and other expansion needs.
+              Also, check the available USB ports and their versions (USB 2.0, USB 3.0, USB-C) for connectivity.</p>
+            <h3>6. Overclocking and Special Features:</h3>
+            <p>Enthusiast-grade motherboards often offer features like advanced overclocking support, enhanced power
+              delivery, and additional cooling solutions. These features cater to gamers, content creators, and users
+              seeking maximum performance from their systems.</p>
+            <h3>7. Compatibility and Upgradability:</h3>
+            <p>When choosing a motherboard, ensure compatibility with your CPU socket type and other components.
+              Consider future upgradability options, such as support for next-generation CPUs and storage technologies.
+            </p>
+            <h3>Conclusion: </h3>
+            <p>The motherboard is the central nervous system of your computer, providing the foundation for all other
+              hardware components to work together seamlessly. Understanding its components, form factors, and features
+              will empower you to make an informed decision when selecting the right motherboard for your PC build.
+              Whether you're building a high-performance gaming rig or a compact media center, choosing the right
+              motherboard is crucial for a smooth and efficient computing experience.</p>
+              <p><a href="https://youtu.be/b2pd3Y6aBag" class="link-more">Learn More</a></p>
+
+          </div>
+
+          <div class="col-md-5 order-md-2 order-1" style="margin-top: 25%;">
+            <img src="https://pimages.toolbox.com/wp-content/uploads/2023/02/10044719/Picture-of-a-motherboard.jpg" class="img-fluid" style="height: 60vh;" alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <div class="card-container3">
+      <div class="container">
+        <div class="row justify-content-evenly">
+          <div class="col-md-7 order-md-1 order-2">
+            <h2 class="text-center my-5" id="GPU">Title: Unraveling the Power of GPUs - Your Gateway to Stunning
+              Graphics </h2>
+            <h3>Introduction:</h3>
+            <p>Graphics Processing Units (GPUs) have revolutionized the world of computing, particularly in the realm of
+              gaming and graphical workloads. These specialized processors are designed to handle complex graphics tasks
+              with remarkable speed and efficiency. In this article, we'll delve into the world of GPUs, their
+              architecture, performance, and how they enhance the visual experience on your computer. </p>
+            <h3>1. GPU Architecture: </h3>
+            <p>A GPU is a highly parallel processor built to handle massive amounts of data simultaneously. Unlike CPUs,
+              which excel at sequential tasks, GPUs thrive in parallel tasks like rendering 3D graphics and processing
+              video streams. The architecture of a GPU consists of: </p>
+            <p><b> >Streaming Multiprocessors (SM): </b>These are the building blocks of a GPU, each containing multiple
+              CUDA (Compute Unified Device Architecture) cores. <br>
+              <b> >CUDA Cores: </b> Thousands of small processing units within the SMs that handle computations in
+              parallel. <br>
+              <b> >Memory Hierarchy: </b> Including VRAM (Video RAM) and cache, which stores data for quick access
+              during rendering.
+            </p>
+            <h3>2. Graphics Rendering: </h3>
+            <p>GPUs excel at rendering stunning visuals in video games and graphics-intensive applications. They process
+              complex algorithms for shading, lighting, and texture mapping to produce lifelike graphics on your screen.
+            </p>
+            <h3>3. Parallel Computing: </h3>
+            <p>Beyond graphics, GPUs are now used for general-purpose computing tasks, known as GPGPU (General-Purpose
+              Graphics Processing Unit) computing. This enables GPUs to perform tasks like scientific simulations, AI
+              training, and cryptocurrency mining with remarkable speed due to their massive parallel processing
+              capabilities. </p>
+            <h3>4. VR and Ray Tracing:</h3>
+            <p>Modern GPUs have introduced technologies like Virtual Reality (VR) support and Real-Time Ray Tracing. VR
+              takes advantage of the GPU's power to render two slightly different images (stereoscopic) to create an
+              immersive 3D experience. Ray Tracing simulates the behavior of light to produce incredibly realistic
+              lighting and reflections in real-time. </p>
+            <h3>5. Gaming Performance: </h3>
+            <p>For gamers, the GPU is one of the most critical components. A powerful GPU can run the latest games at
+              high resolutions and frame rates, delivering a smooth and visually stunning gaming experience. </p>
+            <h3>6. GPU Memory: </h3>
+            <p>The amount of VRAM on a GPU is crucial for handling large textures, high-resolution displays, and
+              multiple monitors. Gaming at higher resolutions and with detailed textures requires GPUs with larger VRAM
+              capacities. </p>
+            <h3>7. Graphics APIs: </h3>
+            <p>Graphics APIs (Application Programming Interfaces), such as DirectX and Vulkan, act as intermediaries
+              between the GPU and the software. These APIs optimize GPU utilization and enable developers to harness the
+              full potential of modern GPUs. </p>
+            <h3>Conclusion: </h3>
+            <p>GPUs are at the forefront of cutting-edge graphics technology, driving innovations in gaming, VR
+              experiences, and parallel computing. Their specialized architecture and immense processing power have
+              transformed the way we interact with computers, enabling captivating visuals and high-performance
+              computing. Whether you're a gamer, content creator, or researcher, a powerful GPU will undoubtedly elevate
+              your computing experience to new heights. </p>
+
+              <p><a href="https://youtu.be/LfdK-v0SbGI" class="link-more">Learn More</a></p>
+
+          </div>
+
+          <div class="col-md-5" style="margin-top: 30%;">
+            <img src="./img/gpu2.jpg" class="img-fluid" style="height: 60vh; width: 100%;" alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+    <div class="card-container4">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-7 order-md-1 order-2">
+            <h2 class="text-center my-5" id="RAM">Title: Unraveling the Magic of RAM - Empowering Your Computer's
+              Performance </h2>
+            <h3>Introduction:</h3>
+            <p>RAM (Random Access Memory) is a vital component in every computer, working hand-in-hand with the CPU to
+              deliver a smooth and responsive computing experience. As a high-speed temporary storage, RAM plays a
+              crucial role in managing data and applications. In this article, we'll explore the wonders of RAM, its
+              functions, types, and how it impacts the overall performance of your computer.</p>
+            <h3>1. What is RAM?</h3>
+            <p>RAM is a type of volatile memory that provides quick access to data that the CPU needs to perform tasks.
+              Unlike long-term storage devices (e.g., hard drives or SSDs), RAM can rapidly read and write data, making
+              it essential for multitasking and running applications efficiently.</p>
+            <h3>2. How RAM Works:</h3>
+            <p>When you open an application or run a program, it gets loaded into RAM from storage devices. The CPU can
+              then access and manipulate this data at lightning speed, significantly faster than accessing data from a
+              hard drive. RAM enables seamless multitasking, allowing you to switch between applications quickly.</p>
+            <h3>3. RAM Capacity:</h3>
+            <p>The amount of RAM in your computer directly impacts its performance. Modern operating systems and
+              software demand more RAM to function optimally. For casual users, 8GB to 16GB of RAM is generally
+              sufficient. Gamers, content creators, and professionals dealing with large datasets may benefit from 32GB
+              or more.</p>
+            <h3>4. RAM Speed:</h3>
+            <p>The speed at which RAM operates is measured in megahertz (MHz) or gigahertz (GHz). Higher RAM speeds can
+              result in a performance boost, especially in tasks that are memory-intensive, such as content creation and
+              video editing. However, the CPU and motherboard must support these higher speeds for them to be effective.
+            </p>
+            <h3>5. Dual-Channel and Quad-Channel RAM:</h3>
+            <p>Modern motherboards often support dual-channel and quad-channel RAM configurations. These configurations
+              enable the CPU to access multiple RAM modules simultaneously, increasing the overall data transfer rate
+              and boosting performance.</p>
+            <h3>6. Types of RAM:</h3>
+            <p><b>DDR (Double Data Rate) RAM: </b>DDR3, DDR4, and the newer DDR5 are the most common types of RAM in use
+              today. Each successive generation offers faster speeds and improved efficiency. <br>
+              <b>ECC (Error-Correcting Code) RAM: </b> ECC RAM is used in mission-critical systems, servers, and
+              workstations, as it can detect and correct data errors to ensure system stability. <br>
+              <b> SODIMM: </b>Smaller form factor RAM modules designed for laptops and compact systems.
+            </p>
+            <h3>7. Upgrading RAM: </h3>
+            <p>Upgrading RAM is one of the most cost-effective ways to boost your computer's performance, especially if
+              you find your system struggling with multitasking or running resource-intensive applications. </p>
+            <h3>Conclusion: </h3>
+            <p>RAM is the unsung hero of your computer's performance, ensuring smooth multitasking and rapid access to
+              data for running applications. Understanding RAM's capacity, speed, and types will help you make informed
+              decisions when upgrading your system or building a new computer. With the right amount of fast and
+              efficient RAM, you can unlock your computer's full potential and enjoy a seamless computing experience.
+            </p>
+            <p><a href="https://youtu.be/PVad0c2cljo" class="link-more">Learn More</a></p>
+          </div>
+          <div class="col-md-5 order-md-2 order-1" style="margin-top: 25%;">
+            <img src="./img/RAM2.jpg" class="img-fluid" style="height: 60vh;" alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+    </div>
+
+
+
+  </main>
+  <!-- End #main -->
+
+
+  <!-- COntact section  -->
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="section-title" data-aos="fade-up">
+        <h2 class="text-center">Contact Us</h2>
+        <p></p>
+      </div>
+
+      <div class="row no-gutters justify-content-center" data-aos="fade-up">
+
+        <div class="col-lg-5 d-flex align-items-stretch">
+          <div class="info">
+            <div class="address">
+              <i class="bi bi-geo-alt"></i>
+              <h4>Location:</h4>
+              <p>A108 Adam Street, New York, NY 535022</p>
+            </div>
+
+            <div class="email mt-4">
+              <i class="bi bi-envelope"></i>
+              <h4>Email:</h4>
+              <p>info@example.com</p>
+            </div>
+
+            <div class="phone mt-4">
+              <i class="bi bi-phone"></i>
+              <h4>Call:</h4>
+              <p>+1 5589 55488 55s</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-5 d-flex align-items-stretch mt-5 mt-md-0">
+          <iframe style="border:0; width: 100%; height: 270px;"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+            frameborder="0" allowfullscreen></iframe>
+        </div>
+
+      </div>
+      <br>
+      <div class="row mt-5 justify-content-center" data-aos="fade-up">
+        <div class="col-lg-10">
+          <form action="" method="post" role="form" class="email-form">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- end contact section  -->
+
+
+
+  <!-- Footer  -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content">
+      <div class="container">
+
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <h3 class="footer-heading">About BitsBytes</h3>
+            <p>Welcome to BitsBytes! We are a passionate team of tech enthusiasts, dedicated to bringing you the latest
+              and most insightful information about computer hardware. From CPUs and GPUs to motherboards and RAM, we
+              cover it all. Our mission is to empower you with knowledge, helping you make informed decisions when
+              upgrading your PC or building a new one. Whether you're a gaming enthusiast, content creator, or simply a
+              tech lover, our blog is your go-to resource for valuable tips, in-depth reviews, and expert insights. Join
+              us on this exciting journey into the world of computer hardware!</p>
+            <p><a href="about.html" class="footer-link-more">Learn More</a></p>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h3 class="footer-heading">Navigation</h3>
+            <ul class="footer-links list-unstyled">
+              <li><a href="index.html"><i class="bi bi-chevron-right"></i> Home</a></li>
+              <li><a href="index.html"><i class="bi bi-chevron-right"></i> Blog</a></li>
+              <li><a href="index.html"><i class="bi bi-chevron-right"></i> Categories</a></li>
+              <li><a href="about.html"><i class="bi bi-chevron-right"></i> About us</a></li>
+              <li><a href="#contact"><i class="bi bi-chevron-right"></i> Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h3 class="footer-heading">Topics</h3>
+            <ul class="footer-links list-unstyled">
+              <li><a href="#CPU">CPU</a></li>
+              <li><a href="#motherboard">MotherBoard</a></li>
+              <li><a href="#GPU">GPU</a></li>
+              <li><a href="#RAM">RAM</a></li>
+
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal">
+      <div class="container">
+
+        <div class="row justify-content-between">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <div class="copyright">
+              © Copyright <strong><span>BitsBytes</span></strong>. All Rights Reserved
+            </div>
+
+            <div class="credits">
+
+              Designed by <a href="https://github.com/Ifham-Ansari">Ifham Ansari</a>
+            </div>
+
+          </div>
+
+          <div class="col-md-6">
+            <div class="social-links mb-3 mb-lg-0 text-center text-md-end">
+              <a href="#" class="facebook mx-2"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://github.com/Ifham-Ansari" class="github mx-2"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/ifham-ansari-339428225/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+
+  <script src="./js/swiper-bundle.min.js"></script>
+
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>
